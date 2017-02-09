@@ -31,7 +31,7 @@ class WeatherApp extends React.Component {
         };
 	    let key = null;//key为HeWeather的用户 个人认证key
 	    let url = 'https://free-api.heweather.com/v5/now?city='
-                + query + '&key=3aee973354a94955bedffd1034c4faa7';
+                + query + key;
 
         fetch(url).then(function (response) {
             return response;

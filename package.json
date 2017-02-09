@@ -1,0 +1,29 @@
+{
+  "name": "weather_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --progress --colors"
+  },
+  "keywords": [
+    "weatherApp，React"
+  ],
+  "author": "xjx",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.16.0",  
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2",
+    "css-loader": "^0.21.0",
+    "style-loader": "^0.13.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
